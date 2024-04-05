@@ -2,37 +2,54 @@
 <html>
 
 <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles">
+    <!-- Title of the webpage -->
+    <title>Vacation Destination| Home</title>
+    <!-- Description of the webpage for SEO purposes -->
+    <meta name="description" content="A Catalog Vacation Destinations">
+    <!-- Link to the external CSS stylesheet -->
     <link rel="stylesheet" href="style.css" />
+    <!-- Link to the external JavaScript file -->
     <script type="text/javascript" src="scripts.js"></script>
 </head>
 
 <body>
+    <!-- Main header section -->
     <header class="main-header">
-        <h1 class="title">LA TV Shows</h1>
+        <!-- Title of the page or website -->
+        <h1 class="title">Vacation Destinations</h1>
     </header>
+
+    <!-- Container for the cards -->
     <div id="card-container">
-        
     </div>
+
+    <!-- Template for a card, initially hidden -->
     <div class="card" style="display: none;">
         <div class="card-content">
-            <h2>TV Show Title</h2>
-            <img src="" alt="TV Show Poster">
+            <!-- Title of the TV show -->
+            <h2>Name of place</h2>
+            <!-- Image of the TV show poster -->
+            <img src="" alt="Name of Place">
+            <!-- List of bullet points -->
             <ul>
-                <li>Bullet Point 1</li>
-                <li>Bullet Point 2</li>
-                <li>Bullet Point 3</li>
+                <li>Best Months To Visit</li>
+                <li>Estimated Price</li>
             </ul>
         </div>
     </div>
+
     <div class="footer">
-        <button onclick="quoteAlert();">
-            Get A Quote!
+        <button onclick="sortAndShowCards();">
+            Sort Vacations By Price
         </button>
-        <button onclick="removeLastCard();">
-            Remove A Card!
+    </div>
+    <div class="footer">
+        <button onclick="filterDestinationsByMonths();">
+            Filter Vacations By Months
         </button>
+    </div>
+
+
     </div>
 </body>
 
